@@ -15,6 +15,7 @@
 		F557CACA1FB5998700151EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F557CAC81FB5998700151EAF /* LaunchScreen.storyboard */; };
 		F557CACD1FB5998700151EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F557CACC1FB5998700151EAF /* main.m */; };
 		F557CAD41FB599C500151EAF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F557CAD31FB599C500151EAF /* Podfile */; };
+		F557CAD61FB989C100151EAF /* customFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F557CAD51FB989C000151EAF /* customFilter.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F557CACB1FB5998700151EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F557CACC1FB5998700151EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F557CAD31FB599C500151EAF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F557CAD51FB989C000151EAF /* customFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = customFilter.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		F557CABC1FB5998700151EAF /* test */ = {
 			isa = PBXGroup;
 			children = (
+				F557CAD51FB989C000151EAF /* customFilter.fsh */,
 				F557CABD1FB5998700151EAF /* AppDelegate.h */,
 				F557CABE1FB5998700151EAF /* AppDelegate.m */,
 				F557CAC01FB5998700151EAF /* ViewController.h */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F557CACA1FB5998700151EAF /* LaunchScreen.storyboard in Resources */,
+				F557CAD61FB989C100151EAF /* customFilter.fsh in Resources */,
 				F557CAC71FB5998700151EAF /* Assets.xcassets in Resources */,
 				F557CAD41FB599C500151EAF /* Podfile in Resources */,
 				F557CAC51FB5998700151EAF /* Main.storyboard in Resources */,

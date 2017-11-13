@@ -17,12 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JKC-2c-k2b">
-                                <rect key="frame" x="13" y="418" width="348" height="250"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UPZ-jH-inh">
+                                <rect key="frame" x="11" y="44" width="348" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UPZ-jH-inh">
-                                <rect key="frame" x="13" y="147" width="348" height="224"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIg-VN-LyE" customClass="GPUImageView">
+                                <rect key="frame" x="11" y="276" width="348" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vk7-Zr-avH">
+                                <rect key="frame" x="11" y="531" width="355" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -30,7 +35,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="currentImageView" destination="JKC-2c-k2b" id="bIf-0o-OoM"/>
+                        <outlet property="currentImageView" destination="qIg-VN-LyE" id="5kN-vo-jWW"/>
+                        <outlet property="nImageView" destination="Vk7-Zr-avH" id="1t2-f8-f9B"/>
                         <outlet property="yuanImageView" destination="UPZ-jH-inh" id="Zqz-wa-g9C"/>
                     </connections>
                 </viewController>
